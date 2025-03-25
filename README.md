@@ -1,6 +1,6 @@
 # Microbial-SNVs-analysis
 
-The UHGV is a comprehensive genomic resource of viruses from the human microbiome. Genomes were derived from [12 independent data sources](#data-sources) and annotated using a [uniform bioinformatics pipeline](#bioinformatics-pipeline):
+A collection of Python scripts for processing InStrain profile output (https://github.com/MrOlm/inStrain) to 1) recover a high-confidence set of SNVs from microbial or viral genomes, 2) further filtering based on the time-course experimental design and 3) hierarchical clustering of SNVs based on their frequency temporal trends. 
 
 ## Table of contents
 1. [Methods](#methods)
