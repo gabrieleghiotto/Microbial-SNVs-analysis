@@ -9,11 +9,7 @@ The UHGV is a comprehensive genomic resource of viruses from the human microbiom
 2. [Data availability](#data-availability)
    * [Recommended files](#recommended-files)
    * [All available files](#all-available-files)
-3. [Bioinformatics tools that use the UHGV](#code-availability) 
-   * [Contig-level taxonomic classification](CLASSIFY.md)
-   * [Read-level abundance profiling](#read-level-abundance-profiling-with-phanta)
-   * [Genome visualization](#genome-visualization)
-      
+3. [Code availability](#code-availability)    
 
 ## Methods
 
