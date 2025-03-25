@@ -2,9 +2,6 @@
 
 The UHGV is a comprehensive genomic resource of viruses from the human microbiome. Genomes were derived from [12 independent data sources](#data-sources) and annotated using a [uniform bioinformatics pipeline](#bioinformatics-pipeline):
 
-<img src="img/data_workflow.png" width="900">
-
-
 ## Table of contents
 1. [Methods](#methods)
    * [Dependencies](#Dependencies)
