@@ -8,7 +8,7 @@ A collection of Python scripts for processing InStrain profile output (https://g
    * [Bioinformatics pipeline](#bioinformatics-pipeline)
 2. [Data availability](#data-availability)
    * [Recommended files](#recommended-files)
-   * [All available files](#all-available-files)
+   * [Example of usage](#Example-of-usage)
 3. [Code availability](#code-availability)    
 
 ## Methods
@@ -45,17 +45,20 @@ For additional details, please refer to our manuscript: (in preparation).
 The entire resource has been deposited at SRA () and is  available upon request.
 
 ### Recommended files
+- [coverM_coverage.txt]
+- [gtdbtk.bac120.summary.tsv]
+- [gtdbtk.ar53.summary.tsv]
+- [quality_report.tsv]
+  
 For most analyses of InStrain output, we recommend using these files:
 - [scaffold_info.tsv]
 - [SNVs.tsv]
 - [genome_info.tsv]
 
-### All available files:
+### Example of usage:
 
-- [linkage.tsv]
-- [gene_info.tsv]
+plot_composite_figure(ra_plot=ra_plot, qual_ab1=qual_ab1, test_plot1=test_plot1, output_file='fig1A_pre_TOTSNV.svg')
 
 ## Code availability
-The repository is composed of two Python scripts at the moment:
-- [filter_SNVs.py] takes as input files the output from InStrain profile, on one or multiple metagenomic samples
-- [cluster_SNVs.py] takes the filtered dataset generated with [filter_SNV.py] and performs further filtering of the SNVs (if wanted) and then clustering of SNVs based on their frequency over time
+The repository is composed of one Python script at the moment:
+- [plotting_basic_metagenomics_metrics.py] takes as input files the output of multiple metagenomic softwares (coverM, checkM2, gtdb-tk, inStrain), manipulates it and produces a plot
